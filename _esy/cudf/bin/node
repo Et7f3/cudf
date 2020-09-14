@@ -1,0 +1,4 @@
+#!/bin/sh
+export ESY__NODE_BIN_PATH="/tmp/cudf/_esy/cudf/bin"
+exec "/usr/bin/node" -r "/tmp/cudf/_esy/cudf/pnp.js" "$@"
+              

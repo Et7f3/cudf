@@ -1,0 +1,26 @@
+File _build/cudf_c.cmo
+Unit name: Cudf_c
+Interfaces imported:
+	d6a8de25c9eecf5ae9420a9f3f8b2e88	Stdlib__seq
+	6d7fdae04e8b50cf6e3d781f6dd13bd1	Stdlib__scanf
+	c57f9c5debbcb9d656c70b1e7385c4f9	Stdlib__lexing
+	1b88fbd71c9cf564eb0790c5709a779a	Stdlib__callback
+	6f90f1d35d75f513a9ee53cebf3fbc27	Stdlib__bytes
+	c21c5d26416461b543321872a551ea0d	Stdlib
+	c083261d6fde10c6d6cab7f989da23ba	IO
+	a3c1637b5d51d3bbfe89de53aafb9b26	ExtBytes
+	b62ced54d8dfc6192f779ca42c9f1db2	Enum
+	936bc85f384501c4dfc1b1a0877e95f2	Cudf_types
+	6efeb8434a48ef18d959c8eb005c3fdc	Cudf_parser
+	b208f19be0c502971d434aff31afd64d	Cudf_conf
+	725ba22b12af41ac53cb1cd82b1878e8	Cudf_checker
+	aefb4b03ada0b3a555d07a351dd8969f	Cudf_c
+	4d017ed7a1c8c3a4c335029e33abfd54	Cudf
+	3a3ca1838627f7762f49679ce0278ad1	CamlinternalFormatBasics
+Required globals:
+	Cudf
+	Cudf_checker
+	Cudf_parser
+	Stdlib__callback
+Uses unsafe features: no
+Force link: no

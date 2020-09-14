@@ -1,0 +1,226 @@
+File _build/cudf.cma
+Force custom: no
+Extra C object files:
+Extra C options:
+Extra dynamically-loaded libraries:
+Unit name: Cudf_types
+Interfaces imported:
+	54daaa8e9d9731d209be16e7b8bc4bd2	Std
+	91bb1520a59e984f9530a80b316d6782	ExtString
+	9423c492a97731835cfa99fef4e32d54	ExtList
+	80c7a837d0db4f85b33c4793e7a8c16a	ExtLib
+	32d1b723aef1d02d807338f80f536bf3	ExtHashtbl
+	a3c1637b5d51d3bbfe89de53aafb9b26	ExtBytes
+	93214229cc3b268849cde3630004e212	ExtBuffer
+	399049fa16a84cc1d136eeae05bbcadb	ExtArray
+	b62ced54d8dfc6192f779ca42c9f1db2	Enum
+	936bc85f384501c4dfc1b1a0877e95f2	Cudf_types
+	3a3ca1838627f7762f49679ce0278ad1	CamlinternalFormatBasics
+Required globals:
+	Assert_failure
+	ExtList
+Uses unsafe features: no
+Force link: no
+Unit name: Cudf_conf
+Interfaces imported:
+	936bc85f384501c4dfc1b1a0877e95f2	Cudf_types
+	b208f19be0c502971d434aff31afd64d	Cudf_conf
+	3a3ca1838627f7762f49679ce0278ad1	CamlinternalFormatBasics
+Required globals:
+	Cudf_types
+Uses unsafe features: no
+Force link: no
+Unit name: Cudf_822_parser
+Interfaces imported:
+	54daaa8e9d9731d209be16e7b8bc4bd2	Std
+	91bb1520a59e984f9530a80b316d6782	ExtString
+	9423c492a97731835cfa99fef4e32d54	ExtList
+	80c7a837d0db4f85b33c4793e7a8c16a	ExtLib
+	32d1b723aef1d02d807338f80f536bf3	ExtHashtbl
+	a3c1637b5d51d3bbfe89de53aafb9b26	ExtBytes
+	93214229cc3b268849cde3630004e212	ExtBuffer
+	399049fa16a84cc1d136eeae05bbcadb	ExtArray
+	b62ced54d8dfc6192f779ca42c9f1db2	Enum
+	936bc85f384501c4dfc1b1a0877e95f2	Cudf_types
+	ecdf0c8e46c4e5473e43050bcc9002ee	Cudf_822_parser
+	3a3ca1838627f7762f49679ce0278ad1	CamlinternalFormatBasics
+Required globals:
+	Cudf_types
+	ExtList
+Uses unsafe features: no
+Force link: no
+Unit name: Cudf_type_parser
+Interfaces imported:
+	54daaa8e9d9731d209be16e7b8bc4bd2	Std
+	91bb1520a59e984f9530a80b316d6782	ExtString
+	9423c492a97731835cfa99fef4e32d54	ExtList
+	80c7a837d0db4f85b33c4793e7a8c16a	ExtLib
+	32d1b723aef1d02d807338f80f536bf3	ExtHashtbl
+	a3c1637b5d51d3bbfe89de53aafb9b26	ExtBytes
+	93214229cc3b268849cde3630004e212	ExtBuffer
+	399049fa16a84cc1d136eeae05bbcadb	ExtArray
+	b62ced54d8dfc6192f779ca42c9f1db2	Enum
+	936bc85f384501c4dfc1b1a0877e95f2	Cudf_types
+	0e5bc4f9f0ab2cb227ea4cd8aa6a7343	Cudf_type_parser
+	3a3ca1838627f7762f49679ce0278ad1	CamlinternalFormatBasics
+Required globals:
+	Assert_failure
+	Cudf_types
+	ExtString
+Uses unsafe features: no
+Force link: no
+Unit name: Cudf_type_lexer
+Interfaces imported:
+	936bc85f384501c4dfc1b1a0877e95f2	Cudf_types
+	0e5bc4f9f0ab2cb227ea4cd8aa6a7343	Cudf_type_parser
+	9686d5a8bcad9838a70d91640707e1a9	Cudf_type_lexer
+	3a3ca1838627f7762f49679ce0278ad1	CamlinternalFormatBasics
+Required globals:
+	Cudf_types
+Uses unsafe features: no
+Force link: no
+Unit name: Cudf_types_pp
+Interfaces imported:
+	54daaa8e9d9731d209be16e7b8bc4bd2	Std
+	91bb1520a59e984f9530a80b316d6782	ExtString
+	9423c492a97731835cfa99fef4e32d54	ExtList
+	80c7a837d0db4f85b33c4793e7a8c16a	ExtLib
+	32d1b723aef1d02d807338f80f536bf3	ExtHashtbl
+	a3c1637b5d51d3bbfe89de53aafb9b26	ExtBytes
+	93214229cc3b268849cde3630004e212	ExtBuffer
+	399049fa16a84cc1d136eeae05bbcadb	ExtArray
+	b62ced54d8dfc6192f779ca42c9f1db2	Enum
+	6ab157fd0f7aee7fd7ed925b9f79a142	Cudf_types_pp
+	936bc85f384501c4dfc1b1a0877e95f2	Cudf_types
+	0e5bc4f9f0ab2cb227ea4cd8aa6a7343	Cudf_type_parser
+	9686d5a8bcad9838a70d91640707e1a9	Cudf_type_lexer
+	3a3ca1838627f7762f49679ce0278ad1	CamlinternalFormatBasics
+Required globals:
+	Assert_failure
+	Cudf_type_lexer
+	Cudf_type_parser
+	Cudf_types
+	ExtBuffer
+	ExtString
+Uses unsafe features: no
+Force link: no
+Unit name: Cudf_822_lexer
+Interfaces imported:
+	936bc85f384501c4dfc1b1a0877e95f2	Cudf_types
+	ecdf0c8e46c4e5473e43050bcc9002ee	Cudf_822_parser
+	64709bb9862d60240b83183719c61d8c	Cudf_822_lexer
+	3a3ca1838627f7762f49679ce0278ad1	CamlinternalFormatBasics
+Required globals:
+	Cudf_types
+Uses unsafe features: no
+Force link: no
+Unit name: Cudf
+Interfaces imported:
+	54daaa8e9d9731d209be16e7b8bc4bd2	Std
+	91bb1520a59e984f9530a80b316d6782	ExtString
+	9423c492a97731835cfa99fef4e32d54	ExtList
+	80c7a837d0db4f85b33c4793e7a8c16a	ExtLib
+	32d1b723aef1d02d807338f80f536bf3	ExtHashtbl
+	a3c1637b5d51d3bbfe89de53aafb9b26	ExtBytes
+	93214229cc3b268849cde3630004e212	ExtBuffer
+	399049fa16a84cc1d136eeae05bbcadb	ExtArray
+	b62ced54d8dfc6192f779ca42c9f1db2	Enum
+	6ab157fd0f7aee7fd7ed925b9f79a142	Cudf_types_pp
+	936bc85f384501c4dfc1b1a0877e95f2	Cudf_types
+	b208f19be0c502971d434aff31afd64d	Cudf_conf
+	4d017ed7a1c8c3a4c335029e33abfd54	Cudf
+	3a3ca1838627f7762f49679ce0278ad1	CamlinternalFormatBasics
+Required globals:
+	Cudf_conf
+	Cudf_types
+	Cudf_types_pp
+	ExtHashtbl
+	ExtLib
+	ExtList
+Uses unsafe features: no
+Force link: no
+Unit name: Cudf_parser
+Interfaces imported:
+	54daaa8e9d9731d209be16e7b8bc4bd2	Std
+	c083261d6fde10c6d6cab7f989da23ba	IO
+	91bb1520a59e984f9530a80b316d6782	ExtString
+	9423c492a97731835cfa99fef4e32d54	ExtList
+	80c7a837d0db4f85b33c4793e7a8c16a	ExtLib
+	32d1b723aef1d02d807338f80f536bf3	ExtHashtbl
+	a3c1637b5d51d3bbfe89de53aafb9b26	ExtBytes
+	93214229cc3b268849cde3630004e212	ExtBuffer
+	399049fa16a84cc1d136eeae05bbcadb	ExtArray
+	b62ced54d8dfc6192f779ca42c9f1db2	Enum
+	6ab157fd0f7aee7fd7ed925b9f79a142	Cudf_types_pp
+	936bc85f384501c4dfc1b1a0877e95f2	Cudf_types
+	6efeb8434a48ef18d959c8eb005c3fdc	Cudf_parser
+	b208f19be0c502971d434aff31afd64d	Cudf_conf
+	ecdf0c8e46c4e5473e43050bcc9002ee	Cudf_822_parser
+	64709bb9862d60240b83183719c61d8c	Cudf_822_lexer
+	4d017ed7a1c8c3a4c335029e33abfd54	Cudf
+	3a3ca1838627f7762f49679ce0278ad1	CamlinternalFormatBasics
+Required globals:
+	Assert_failure
+	Cudf
+	Cudf_822_lexer
+	Cudf_822_parser
+	Cudf_conf
+	Cudf_types
+	Cudf_types_pp
+	ExtLib
+	ExtList
+	ExtString
+	IO
+Uses unsafe features: no
+Force link: no
+Unit name: Cudf_checker
+Interfaces imported:
+	54daaa8e9d9731d209be16e7b8bc4bd2	Std
+	91bb1520a59e984f9530a80b316d6782	ExtString
+	9423c492a97731835cfa99fef4e32d54	ExtList
+	80c7a837d0db4f85b33c4793e7a8c16a	ExtLib
+	32d1b723aef1d02d807338f80f536bf3	ExtHashtbl
+	a3c1637b5d51d3bbfe89de53aafb9b26	ExtBytes
+	93214229cc3b268849cde3630004e212	ExtBuffer
+	399049fa16a84cc1d136eeae05bbcadb	ExtArray
+	b62ced54d8dfc6192f779ca42c9f1db2	Enum
+	6ab157fd0f7aee7fd7ed925b9f79a142	Cudf_types_pp
+	936bc85f384501c4dfc1b1a0877e95f2	Cudf_types
+	725ba22b12af41ac53cb1cd82b1878e8	Cudf_checker
+	4d017ed7a1c8c3a4c335029e33abfd54	Cudf
+	3a3ca1838627f7762f49679ce0278ad1	CamlinternalFormatBasics
+Required globals:
+	Assert_failure
+	Cudf
+	Cudf_types_pp
+	ExtLib
+	ExtList
+	ExtString
+Uses unsafe features: no
+Force link: no
+Unit name: Cudf_printer
+Interfaces imported:
+	54daaa8e9d9731d209be16e7b8bc4bd2	Std
+	497e31fb8f1e826bf6f1caac92bd8b9d	Option
+	c083261d6fde10c6d6cab7f989da23ba	IO
+	91bb1520a59e984f9530a80b316d6782	ExtString
+	9423c492a97731835cfa99fef4e32d54	ExtList
+	80c7a837d0db4f85b33c4793e7a8c16a	ExtLib
+	32d1b723aef1d02d807338f80f536bf3	ExtHashtbl
+	a3c1637b5d51d3bbfe89de53aafb9b26	ExtBytes
+	93214229cc3b268849cde3630004e212	ExtBuffer
+	399049fa16a84cc1d136eeae05bbcadb	ExtArray
+	b62ced54d8dfc6192f779ca42c9f1db2	Enum
+	6ab157fd0f7aee7fd7ed925b9f79a142	Cudf_types_pp
+	936bc85f384501c4dfc1b1a0877e95f2	Cudf_types
+	40dda7c7562d083d41b9e9e57efece82	Cudf_printer
+	4d017ed7a1c8c3a4c335029e33abfd54	Cudf
+	3a3ca1838627f7762f49679ce0278ad1	CamlinternalFormatBasics
+Required globals:
+	Cudf
+	Cudf_types_pp
+	ExtList
+	IO
+	Option
+Uses unsafe features: no
+Force link: no

@@ -1,0 +1,47 @@
+(library
+ (public_name cudf)
+(flags -w -50 -alert -deprecated)
+ (wrapped false)
+ (modules Cudf_types Cudf_conf Cudf_822_parser Cudf_type_parser
+   Cudf_type_lexer Cudf_types_pp Cudf_822_lexer Cudf Cudf_parser Cudf_checker
+   Cudf_printer)
+ (libraries extlib))
+
+(executable
+ (name main_cudf_check)
+ (public_name cudf-check)
+ (modules Main_cudf_check)
+ (flags -w -33-27-9 -alert -deprecated)
+ (libraries cudf))
+
+(executable
+ (name main_cudf_parse_822)
+ (public_name cudf-parse-822)
+ (modules Main_cudf_parse_822)
+ (flags -w -27 -alert -deprecated)
+ (libraries cudf))
+
+(executable
+ (name cudf_c)
+ (public_name cudf_c)
+ (modes 
+ (byte exe)
+       (byte c))
+ (modules Cudf_c)
+ (libraries cudf))
+
+(executable
+ (name test)
+ (modules Test Tests)
+ (flags -w -50 -alert -deprecated)
+ (libraries cudf oUnit))
+
+(rule
+ (alias runtest)
+ (deps test.exe)
+ (action
+  (run %{deps} -verbose)))
+
+(ocamllex cudf_type_lexer cudf_822_lexer)
+
+(ocamlyacc cudf_type_parser cudf_822_parser)

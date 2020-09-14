@@ -7,7 +7,7 @@ GEN_STUFF = $(patsubst %,%.1,$(MANPAGES))
 all: $(GEN_STUFF)
 
 %.1: %.pod
-	pod2man --release=$(VERSION) $< > $@
+	pod2man --release $(VERSION) $< > $@
 
 clean:
 	rm -f $(GEN_STUFF)
