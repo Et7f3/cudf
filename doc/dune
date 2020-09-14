@@ -1,18 +1,18 @@
-(rule
- (alias doc)
- (deps cudf-check.pod)
- (mode fallback)
- (action
-  (with-stdout-to
-   cudf-check.1
-   (run pod2man --release %{version:cudf} %{deps}))))
-
-(rule
- (alias show-doc)
- (deps cudf-check.1)
- (action
-  (run man -l %{deps})))
-
-(install
- (section man)
- (files cudf-check.1))
+;(rule
+; (alias doc)
+; (deps cudf-check.pod)
+; (mode fallback)
+; (action
+;  (with-stdout-to
+;   cudf-check.1
+;   (run pod2man --release %{version:cudf} %{deps}))))
+;
+;(rule
+; (alias show-doc)
+; (deps cudf-check.1)
+; (action
+;  (run man -l %{deps})))
+;
+;(install
+; (section man)
+; (files cudf-check.1))
